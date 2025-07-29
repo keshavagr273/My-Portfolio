@@ -1,0 +1,99 @@
+export const portfolioConfig = {
+  hero: {
+    name: "Keshav",
+    title: "A Software Engineer",
+    subtitle: "I'm Keshav, a..",
+    description:
+      "Full-Stack Web Developer with a Passion for Building Scalable, AI/ML-Powered Solutions",
+    image: "/profileImg.jpg",
+  },
+  projects: [
+    {
+      id: "ClassMate",
+      title: "ClassMate",
+      description:
+        "Built a full-stack campus management platform that streamlines student life with features like attendance tracking, internship aggregation, campus marketplace, ride-sharing, and secure role-based access—scalable, modular, and AI-ready.",
+      image: "/ClassMate.png",
+      demoUrl: "https://class-matefrontend.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/ClassMate",
+      docsUrl: "https://github.com/keshavagr273/ClassMate/blob/main/README.md",
+      tags: ["React", "Node.js", "PostgreSQL", "JWT", "Tailwind CSS"],
+    },
+    {
+      id: "Equity-Nest",
+      title: "Equity Nest",
+      description: "Equity Nest is a real-time stock trading platform built using Next.js, Express.js, and MongoDB. It offers live stock data, interactive TradingView charts, and portfolio management tools. The platform supports secure Google OAuth authentication and real-time updates via Socket.io. Designed for both desktop and mobile, it ensures a seamless trading experience.",
+      image: "/equity.png",
+      demoUrl: "https://equity-nest-mjil.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/Equity-Nest.git",
+      docsUrl: "https://github.com/keshavagr273/Equity-Nest/blob/main/README.md",
+      tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "TradingView", "Google OAuth"],
+    },
+    {
+      id: "Heart-Disease-Predictor",
+      title: "Heart Disease Predictor",
+      description: "Built a web app to predict heart disease risk using user health data and a neural network model—featuring real-time results, a clean UI, and SMOTE-balanced training on BRFSS 2015 data.",
+      image: "/heart1.png",
+      demoUrl: "https://huggingface.co/spaces/keshav273/heart-pred-app",
+      githubUrl: "https://github.com/keshavagr273/heart-disease-app",
+      docsUrl: "https://github.com/keshavagr273/heart-disease-app/blob/master/README.md",
+      tags: ["React", "Next.js", "Firebase", "NativeWind", "Zustand"],
+    },
+  ],
+  skills: [
+    // Tech skills
+    { name: "Next.js", category: "tech" },
+    { name: "React", category: "tech" },
+    { name: "MongoDB", category: "tech" },
+    { name: "Supabase", category: "tech" },
+    { name: "Redux", category: "tech" },
+    { name: "TensorFlow", category: "tech" },
+    { name: "PyTorch", category: "tech" },
+    { name: "scikit-learn", category: "tech" },
+    { name: "Keras", category: "tech" },
+    { name: "Computer Vision", category: "tech" },
+    { name: "NLP", category: "tech" },
+    { name: "Deep Learning", category: "tech" },
+    { name: "Machine Learning", category: "tech" },
+    // Tools skills
+    { name: "Git/GitHub", category: "tools" },
+    { name: "Docker", category: "tools" },
+    { name: "AWS", category: "tools" },
+  ],
+  contact: {
+    email: "keshavagrawal273@gmail.com",
+    availability: "Available",
+    responseTime: "Usually responds within 24 hours",
+    socialLinks: [
+      {
+        name: "GitHub",
+        url: "https://github.com/keshavagr273",
+        icon: "github",
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/keshav-agrawal-02b4861b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        icon: "linkedin",
+      },
+    ],
+  },
+  metadata: {
+    title: "Keshav - Software Engineer",
+    description:
+      "Full-Stack Web Developer with a Passion for Building Scalable, AI/ML-Powered Solutions.",
+    author: "Keshav",
+    keywords: [
+      "Full-Stack Web Developer",
+      "AI",
+      "ML",
+      "Next.js",
+      "React",
+      "MongoDB",
+      "Supabase",
+      "Redux",
+      "TensorFlow",
+      "PyTorch",
+      "Portfolio",
+    ],
+  },
+};
