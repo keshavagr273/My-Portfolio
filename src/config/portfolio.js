@@ -30,6 +30,16 @@ export const portfolioConfig = {
       tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "TradingView", "Google OAuth"],
     },
     {
+      id: "FreshFinds",
+      title: "FreshFinds",
+      description: "FreshFinds is a community-driven platform built with React, Node.js, and MongoDB that connects local vendors with nearby customers to resell unsold yet fresh food at discounted prices. It helps reduce food waste, support small businesses, and offers an easy, responsive interface for vendors to list items and customers to find affordable options.",
+      image: "/FreshFinds.png",
+      demoUrl: "https://fresh-finds-beige.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/FreshFinds",
+      docsUrl: "https://github.com/keshavagr273/FreshFinds/blob/main/README.md",
+      tags: ["React", "Node.js", "MongoDB", "JavaScript", "CSS", "Food Redistribution"],
+    },
+    {
       id: "Heart-Disease-Predictor",
       title: "Heart Disease Predictor",
       description: "Built a web app to predict heart disease risk using user health data and a neural network model—featuring real-time results, a clean UI, and SMOTE-balanced training on BRFSS 2015 data.",
