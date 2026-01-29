@@ -112,14 +112,14 @@ export default function Hero({ config }) {
           </div>
         </div>
 
-        <div>
+        <div className="relative">
           <Image
             alt="Hero"
             loading="lazy"
             width={300}
             height={300}
             decoding="async"
-            className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full mx-auto scale-110"
+            className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full scale-125 translate-x-10 -translate-y-10 lg:translate-x-12 lg:-translate-y-3"
             src={config.image}
           />
         </div>

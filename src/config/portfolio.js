@@ -5,7 +5,7 @@ export const portfolioConfig = {
     subtitle: "I'm Keshav, a..",
     description:
       "Full-Stack Web Developer with a Passion for Building Scalable, AI/ML-Powered Solutions",
-    image: "/profileImg.jpg",
+    image: "/profileImg2.jpg",
   },
   projects: [
     {
@@ -54,9 +54,19 @@ export const portfolioConfig = {
     // Tech skills
     { name: "Next.js", category: "tech" },
     { name: "React", category: "tech" },
+    { name: "Node.js", category: "tech" },
+    { name: "Express.js", category: "tech" },
+    { name: "JavaScript", category: "tech" },
+    { name: "TypeScript", category: "tech" },
+    { name: "Java", category: "tech" },
     { name: "MongoDB", category: "tech" },
-    { name: "Supabase", category: "tech" },
+    { name: "PostgreSQL", category: "tech" },
+    { name: "SQL", category: "tech" },
+    { name: "Redis", category: "tech" },
     { name: "Redux", category: "tech" },
+    { name: "API Development", category: "tech" },
+    { name: "DBMS", category: "tech" },
+    { name: "Computer Networking", category: "tech" },
     { name: "TensorFlow", category: "tech" },
     { name: "PyTorch", category: "tech" },
     { name: "scikit-learn", category: "tech" },
@@ -68,7 +78,9 @@ export const portfolioConfig = {
     // Tools skills
     { name: "Git/GitHub", category: "tools" },
     { name: "Docker", category: "tools" },
-    { name: "AWS", category: "tools" },
+    { name: "Amazon Web Services", category: "tools" },
+    { name: "Redis", category: "tools" },
+    { name: "Supabase", category: "tools" },
   ],
   contact: {
     email: "keshavagrawal273@gmail.com",
