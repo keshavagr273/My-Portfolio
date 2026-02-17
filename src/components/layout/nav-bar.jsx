@@ -25,7 +25,7 @@ export default function NavBar() {
       <div className="flex items-center gap-2">
         <a href="#" onClick={closeMenu}>
           <Image
-            src="https://ext.same-assets.com/145519567/2330266646.svg"
+            src="/logo1.png"
             alt="Keshav Logo"
             width={44}
             height={44}
