@@ -26,7 +26,7 @@ export default function NavBar() {
         <a href="#" onClick={closeMenu}>
           <Image
             src="https://ext.same-assets.com/145519567/2330266646.svg"
-            alt="Aman Logo"
+            alt="Keshav Logo"
             width={44}
             height={44}
             className="hover:scale-105 transition-transform duration-200"
@@ -92,19 +92,16 @@ export default function NavBar() {
               aria-expanded={isMenuOpen}
             >
               <span
-                className={`w-6 h-0.5 bg-white transition-all duration-300 ${
-                  isMenuOpen ? "rotate-45 translate-y-1.5" : ""
-                }`}
+                className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "rotate-45 translate-y-1.5" : ""
+                  }`}
               ></span>
               <span
-                className={`w-6 h-0.5 bg-white transition-all duration-300 ${
-                  isMenuOpen ? "opacity-0" : ""
-                }`}
+                className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "opacity-0" : ""
+                  }`}
               ></span>
               <span
-                className={`w-6 h-0.5 bg-white transition-all duration-300 ${
-                  isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
-                }`}
+                className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
+                  }`}
               ></span>
             </button>
           </SheetTrigger>

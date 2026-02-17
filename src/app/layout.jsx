@@ -26,8 +26,8 @@ export const metadata = {
     title: "Keshav | Software Engineer",
     description:
       "Skilled Software Engineer building seemless mobile and web applications",
-    url: "https://aman.is-a.dev/",
-    siteName: "Aman Portfolio",
+    url: "https://my-portfolio-blush-beta-17.vercel.app/",
+    siteName: "Keshav Portfolio",
     type: "website",
     images: [
       {
