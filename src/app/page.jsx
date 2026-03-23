@@ -2,6 +2,7 @@ import { portfolioConfig } from "@/config/portfolio.js";
 import NavBar from "@/components/layout/nav-bar.jsx";
 import Hero from "@/components/sections/Hero.jsx";
 import Projects from "@/components/sections/Projects.jsx";
+import WorkExperience from "@/components/sections/WorkExperience.jsx";
 import Skills from "@/components/sections/Skills.jsx";
 import Contact from "@/components/sections/Contact.jsx";
 import Footer from "@/components/layout/Footer.jsx";
@@ -17,6 +18,9 @@ export default function Home() {
 
       {/* Projects Section */}
       <Projects projects={portfolioConfig.projects} />
+
+      {/* Work Experience Section */}
+      <WorkExperience experience={portfolioConfig.experience} />
 
       {/* Skills Section */}
       <Skills skills={portfolioConfig.skills} />

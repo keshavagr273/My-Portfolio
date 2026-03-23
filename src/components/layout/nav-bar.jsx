@@ -52,6 +52,12 @@ export default function NavBar() {
           Projects
         </a>
         <a
+          href="#experience"
+          className="relative hover:text-white transition-colors duration-200 after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[2px] after:bg-[#89675c] after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"
+        >
+          Experience
+        </a>
+        <a
           href="#skills"
           className="relative hover:text-white transition-colors duration-200 after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[2px] after:bg-[#89675c] after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100"
         >
@@ -135,6 +141,13 @@ export default function NavBar() {
                 onClick={closeMenu}
               >
                 Projects
+              </a>
+              <a
+                href="#experience"
+                className="hover:text-white transition-colors duration-200 py-3 rounded-lg px-2 text-lg font-semibold focus:bg-[#222]/40 focus:outline-none"
+                onClick={closeMenu}
+              >
+                Experience
               </a>
               <a
                 href="#skills"

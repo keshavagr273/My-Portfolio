@@ -70,6 +70,20 @@ export const portfolioConfig = {
       tags: ["React", "Next.js", "Firebase", "NativeWind", "Zustand"],
     },
   ],
+  experience: [
+    {
+      company: "Enalo - Banking, Billing, and Payments",
+      role: "Backend Intern",
+      location: "Remote",
+      duration: "Sep 2025 - Oct 2025",
+      contributions: [
+        "Implemented a secure GitHub OAuth 2.0 authentication system with encrypted token storage, session validation, and secure API access management, achieving a 99.9% login success rate.",
+        "Integrated GitHub REST APIs for repository access, webhooks, and runner registration, reducing manual setup time by 40%.",
+        "Built a scalable serverless backend using AWS Lambda, Express.js, and PostgreSQL, improving response time by 35% under load.",
+        "Collaborated across teams and took ownership of multiple features, accelerating sprint delivery.",
+      ],
+    },
+  ],
   skills: [
     // Tech skills
     { name: "Next.js", category: "tech" },

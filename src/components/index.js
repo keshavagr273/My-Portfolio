@@ -4,6 +4,7 @@ export { getIcon } from "./ui/icons";
 // Section Components
 export { default as Hero } from "./sections/Hero";
 export { default as Projects } from "./sections/Projects";
+export { default as WorkExperience } from "./sections/WorkExperience";
 export { default as Skills } from "./sections/Skills";
 export { default as Contact } from "./sections/Contact";
 
