@@ -60,6 +60,16 @@ export const portfolioConfig = {
       tags: ["React", "Node.js", "MongoDB", "JavaScript", "CSS", "Food Redistribution"],
     },
     {
+      id: "Agricare",
+      title: "Agricare",
+      description: "A comprehensive full-stack agricultural platform built with React, Node.js, and Express for empowering farmers through digitalized inventory management and direct market access. Features include a dedicated farmer dashboard, real-time stock tracking, a dynamic marketplace for product listings, and an automated notification system. Secured with JWT-based role authentication and incorporating robust i18n support across five languages, offering a seamless and responsive UI.",
+      image: "/Agricare.png",
+      demoUrl: "https://agri-care-sage.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/AgriCare",
+      docsUrl: "https://github.com/keshavagr273/AgriCare/blob/main/README.md",
+      tags: ["React", "Node.js", "Express.js", "Tailwind CSS", "Redux", "JWT", "i18n"],
+    },
+    {
       id: "Heart-Disease-Predictor",
       title: "Heart Disease Predictor",
       description: "Built a web app to predict heart disease risk using user health data and a neural network model—featuring real-time results, a clean UI, and SMOTE-balanced training on BRFSS 2015 data.",
