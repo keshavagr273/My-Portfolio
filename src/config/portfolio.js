@@ -40,6 +40,16 @@ export const portfolioConfig = {
       tags: ["React", "Node.js", "MongoDB", "Socket.IO", "WebRTC", "JWT", "Tailwind CSS", "Zustand", "Vite"],
     },
     {
+      id: "Luminary-AI",
+      title: "Luminary AI",
+      description: "An AI-powered academic planning platform built with modern full-stack technologies for university discovery, admissions guidance, and application tracking. Features include personalized AI recommendations, admission analysis, scholarship discovery, document processing, loan and ROI calculators, progress tracking, and secure authentication, all within a modern responsive dashboard.",
+      image: "/Luminary.png",
+      demoUrl: "https://luminary-ai-nine.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/Luminary-AI",
+      docsUrl: "https://github.com/keshavagr273/Luminary-AI/blob/main/README.md",
+      tags: ["AI", "Full-Stack", "React", "Node.js"],
+    },
+    {
       id: "Minor-Project-Tracker",
       title: "Faculty Project Tracker",
       description: "A full-stack admin dashboard built with React, Node.js, and MongoDB for managing student project groups under faculty supervision. Features include real-time statistics, progress tracking with notes, alerts for inactive groups, advanced filtering and sorting, and CSV data export. Secured with JWT authentication and bcrypt, offering a modern responsive UI with smooth animations.",
