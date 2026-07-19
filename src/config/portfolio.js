@@ -94,7 +94,7 @@ export const portfolioConfig = {
     {
       company: "NeoCortex AI",
       role: "Software Engineering Intern",
-      location: "Remote",
+      location: "",
       duration: "May 2026 - Present",
       contributions: [
         "Developed SYNQ, a Chrome extension enabling persistent AI memory across ChatGPT, Claude, and Gemini by implementing semantic vector search, knowledge graph extraction, and context retrieval across 3 AI platforms.",
