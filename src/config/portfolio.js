@@ -92,6 +92,17 @@ export const portfolioConfig = {
   ],
   experience: [
     {
+      company: "NeoCortex AI",
+      role: "Software Engineering Intern",
+      location: "Remote",
+      duration: "May 2026 - Present",
+      contributions: [
+        "Developed SYNQ, a Chrome extension enabling persistent AI memory across ChatGPT, Claude, and Gemini by implementing semantic vector search, knowledge graph extraction, and context retrieval across 3 AI platforms.",
+        "Architected a full-stack platform using React, TypeScript, Node.js, and MongoDB, building scalable APIs for chat archival, contextual retrieval, project management, semantic knowledge discovery, and analytics.",
+        "Built Serp-AI, an AI-powered SEO extension delivering competitor insights, content gap analysis, and ranking recommendations across 8+ SEO automation features using React, Firebase, and LLM-driven workflows.",
+      ],
+    },
+    {
       company: "Enalo - Banking, Billing, and Payments",
       role: "Backend Intern",
       location: "Remote",
