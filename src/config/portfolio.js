@@ -20,14 +20,14 @@ export const portfolioConfig = {
       tags: ["React", "Node.js", "PostgreSQL", "JWT", "Tailwind CSS"],
     },
     {
-      id: "Equity-Nest",
-      title: "Equity Nest",
-      description: "Equity Nest is a real-time stock trading platform built using Next.js, Express.js, and MongoDB. It offers live stock data, interactive TradingView charts, and portfolio management tools. The platform supports secure Google OAuth authentication and real-time updates via Socket.io. Designed for both desktop and mobile, it ensures a seamless trading experience.",
-      image: "/equity.png",
-      demoUrl: "https://equity-nest-mjil.vercel.app/",
-      githubUrl: "https://github.com/keshavagr273/Equity-Nest.git",
-      docsUrl: "https://github.com/keshavagr273/Equity-Nest/blob/main/README.md",
-      tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "TradingView", "Google OAuth"],
+      id: "HydraCache",
+      title: "HydraCache",
+      description:
+        "A decentralized, fault-tolerant in-memory distributed key-value store built from scratch in Node.js and TypeScript. Features 64-bit Murmur3 consistent hashing with vnodes, SWIM gossip protocol for leaderless failure detection, Hybrid Logical Clocks (HLC) for Last-Write-Wins conflict resolution, asynchronous replication with hinted handoff, and anti-entropy read repair.",
+      image: "/hydracache.png",
+      githubUrl: "https://github.com/keshavagr273/HydraCache",
+      docsUrl: "https://github.com/keshavagr273/HydraCache/blob/main/README.md",
+      tags: ["TypeScript", "Node.js", "Distributed Systems", "Consistent Hashing", "SWIM Gossip", "Docker"],
     },
     {
       id: "Chat-App",
@@ -38,6 +38,16 @@ export const portfolioConfig = {
       githubUrl: "https://github.com/keshavagr273/Chat-App",
       docsUrl: "https://github.com/keshavagr273/Chat-App/blob/main/README.md",
       tags: ["React", "Node.js", "MongoDB", "Socket.IO", "WebRTC", "JWT", "Tailwind CSS", "Zustand", "Vite"],
+    },
+    {
+      id: "Equity-Nest",
+      title: "Equity Nest",
+      description: "Equity Nest is a real-time stock trading platform built using Next.js, Express.js, and MongoDB. It offers live stock data, interactive TradingView charts, and portfolio management tools. The platform supports secure Google OAuth authentication and real-time updates via Socket.io. Designed for both desktop and mobile, it ensures a seamless trading experience.",
+      image: "/equity.png",
+      demoUrl: "https://equity-nest-mjil.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/Equity-Nest.git",
+      docsUrl: "https://github.com/keshavagr273/Equity-Nest/blob/main/README.md",
+      tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "TradingView", "Google OAuth"],
     },
     {
       id: "Luminary-AI",
@@ -94,10 +104,10 @@ export const portfolioConfig = {
     {
       company: "NeoCortex AI",
       role: "Software Engineering Intern",
-      location: "",
-      duration: "May 2026 - Present",
+      location: "Remote",
+      duration: "May 2026 - July 2026",
       contributions: [
-        "Developed SYNQ, a Chrome extension enabling persistent AI memory across ChatGPT, Claude, and Gemini by implementing semantic vector search, knowledge graph extraction, and context retrieval across 3 AI platforms.",
+        "Developed MemChat, a Chrome extension enabling persistent AI memory across ChatGPT, Claude, and Gemini by implementing semantic vector search, knowledge graph extraction, and context retrieval across 3 AI platforms.",
         "Architected a full-stack platform using React, TypeScript, Node.js, and MongoDB, building scalable APIs for chat archival, contextual retrieval, project management, semantic knowledge discovery, and analytics.",
         "Built Serp-AI, an AI-powered SEO extension delivering competitor insights, content gap analysis, and ranking recommendations across 8+ SEO automation features using React, Firebase, and LLM-driven workflows.",
       ],
