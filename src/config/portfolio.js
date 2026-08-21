@@ -9,6 +9,17 @@ export const portfolioConfig = {
   },
   projects: [
     {
+      id: "DocSaarthi",
+      title: "DocSaarthi",
+      description:
+        "An AI-powered multilingual document intelligence platform engineered for Hindi, Devanagari, and English documents. Features high-precision PaddleOCR v4 with Vision LLM fallback, hybrid semantic & lexical search (pgvector + pg_trgm), conversational RAG chatbot with page-level citations, automated classification across 10 Indian domain schemas, and an interactive split-screen human review studio.",
+      image: "/DocSaarthi.png",
+      demoUrl: "https://docsaarthi.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/DocSaarthi",
+      docsUrl: "https://github.com/keshavagr273/DocSaarthi/blob/main/README.md",
+      tags: ["Next.js 15", "NestJS", "PaddleOCR", "pgvector", "PostgreSQL", "RAG", "Groq LLM", "Docker", "BullMQ"],
+    },
+    {
       id: "ClassMate",
       title: "ClassMate",
       description:
