@@ -61,6 +61,17 @@ export const portfolioConfig = {
       tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "TradingView", "Google OAuth"],
     },
     {
+      id: "GitLens-AI",
+      title: "GitLens AI",
+      description:
+        "A production-grade AI-powered codebase intelligence and architecture reasoning platform. Features deterministic AST parsing with Tree-sitter, interactive React Flow dependency graphs with Tarjan's SCC circular dependency detection, automated API request-flow traversal, AST-aware hybrid code RAG (pgvector + pg_trgm), multi-LLM engineering assistant with verified line-level code citations, and an integrated Monaco code viewer.",
+      image: "/gitlab.png",
+      demoUrl: "https://git-lens-ai-web.vercel.app/",
+      githubUrl: "https://github.com/keshavagr273/GitLens-AI",
+      docsUrl: "https://github.com/keshavagr273/GitLens-AI/blob/main/README.md",
+      tags: ["TypeScript", "Next.js", "Fastify", "Tree-sitter", "pgvector", "React Flow", "RAG", "PostgreSQL", "Docker", "BullMQ"],
+    },
+    {
       id: "Luminary-AI",
       title: "Luminary AI",
       description: "An AI-powered academic planning platform built with modern full-stack technologies for university discovery, admissions guidance, and application tracking. Features include personalized AI recommendations, admission analysis, scholarship discovery, document processing, loan and ROI calculators, progress tracking, and secure authentication, all within a modern responsive dashboard.",
